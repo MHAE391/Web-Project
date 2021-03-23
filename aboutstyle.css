@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.Header .navbar{
+    color: #656565!important;
+    overflow: hidden;
+    display: flex;
+   background-color:  #f4f5f7;
+}
+.Header .navbar .name{
+    float:left;
+font-size: 45px;
+color: navy;
+font-family: Comfortaa; 
+padding: 10px;
+}
+.Header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float:right;
+    display: flex;
+
+}
+.Header .navbar ul li{
+float: left;
+padding: 10px;
+overflow: hidden;
+font-family: Comfortaa; 
+
+
+font-size: 20px;
+}
+.Header .navbar ul li a{
+    text-decoration: none;
+    color: #656565;
+}
+.Header .navbar ul li a:hover{
+    color:midnightblue;
+}
+.navbar ul li:hover{
+color:midnightblue;
+}   
+/*---------------------------------*/
+.back{
+      width: 100%;
+    height: 500px;
+background-image: url(../Image/aboutUs.jpg);
+margin-bottom: 5%;
+    color: #fff;
+    background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+    font-family: comfortaa;
+  background-color: #252a34;
+    }
+.back .text{
+    text-align: center;
+    font-size: 70px;
+    line-height: 500px;
+    font-family: comfortaa!important;
+}
+/*------------------------------------------*/
+.aboutus h1{
+    text-align:left;
+   margin-top: 0;
+       display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+font-family: comfortaa;
+
+}
+.aboutus p{
+    text-align: left;
+font-size: 30px;
+font-family: comfortaa;
+font-weight: 200;
+
+}
+/*------------------------------------*/
+.bg-support {
+    background-color: #f4f5f7;
+}
+.come-in {
+    transform: translate3d(0,100px,0);
+    animation: come-in .8s ease forwards;
+}
+main, footer, .bg-ask, article {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.bg-support .sub-main {
+    max-width: 960px!important;
+}.sub-main, .sub-main-2 {
+    text-align: left;
+    padding: 64px 10%;
+
+}
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+support .col-sm-12, .bg-support .col-xs-12 {
+    padding-right: 0;
+    padding-left: 16px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, 
+.col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, 
+.col-xs-10, .col-xs-11, .col-xs-12, .warranty-box .border-warranty
+ .card-title, ol.progtrckr li.progtrckr-done:before, ol.progtrckr li.progtrckr-onstep:before {
+    float: left!important;
+}
+
+.bg-support .col-lg-10, .bg-support .col-md-12, .bg-support .col-sm-12, .bg-support .col-xs-12 {
+    padding-right: 0;
+    padding-left: 16px;
+}
+.bg-support .sub-main p {
+    margin-bottom: 0;
+}
+.bg-support .support-txt, .bg-support .service-txt {
+    padding-left: 24px;
+    padding-right: 0;
+}
+.bg-support .service-txt {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0;
+    padding-right: 24px;
+    font-family: comfortaa;
+}p {
+margin-top: 0;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.bg-support .support-txt {
+    line-height: 62px;
+    padding-top: 0;
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 24px;
+}
+.support-txt, .support-txt a {
+    color: #0076ff;
+    margin: 0;
+    line-height: 36px;
+    text-decoration: none;
+}
