@@ -151,15 +151,7 @@ font-weight: 500;
 	transition: 0.5s;
 	color: #666;
 }
-.contactform .inputbox input:focus ~ span,
-.contactform .inputbox input:valid ~ span,
-.contactform .inputbox textarea:focus ~ span,
-.contactform .inputbox textarea:valid ~ span
-{
-	color: #e91e63;
-	font-size: 12px;
-	transform : translateY (-20px) ;
-}
+
 .contactform .inputbox input[type="submit"]{
 	width: 100px;
 	background: #00bcd4;
@@ -170,6 +162,15 @@ font-weight: 500;
 	font-size: 18px;
 }
 
+.contactform .inputbox input[type="reset"]{
+	width: 100px;
+	background: #00bcd4;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
  </style>
 </head>
 <body>
@@ -224,26 +225,23 @@ font-weight: 500;
 
 <div class="contactform">
   <form>
-  	<h2>Send message</h2>
+  	<h2>Send Message</h2>
   	<div class="inputbox">
-  		<input type="text" id="fname" required="required" name="fullname">
-  		<span>Full name</span>
+  		<input type="text" id="fname" required="required" placeholder="Full Name">
   	</div>
   	<div class="inputbox">
-  		<input type="text" id="fname" required="required" name="email">
-  		<span>Email</span>
+  		<input type="email" id="fname" required="required" placeholder="Email">
   	</div>
   	<div class="inputbox">
-  		<input type="text" id="fname" required="required" name="phone" >
-  		<span>phone</span>
+  		<input type="text" id="fname" required="required" placeholder="phone" >
   	</div>
   	<div class="inputbox">
-  		<textarea required="required"></textarea>
-  		<span>Your message</span>
+  		<textarea required="required" placeholder="Your Messege"></textarea>
+  	
   	</div>
   	<div class="inputbox">
-  	<input type="submit" value="send"></div>
-
+  	<input type="submit" value="Send">&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Reset"></div>
   </form>
   </form>
 </div>
